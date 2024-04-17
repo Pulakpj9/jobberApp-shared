@@ -21,7 +21,7 @@
   "author": "Pulak Jain",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Pulakpj9/jobberApp-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -38,7 +38,9 @@
   },
   "types": "./src/index.d.ts",
   "dependencies": {
+    "@elastic/elasticsearch": "^8.13.1",
     "express": "^4.19.2",
+    "mongoose": "^8.3.2",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
