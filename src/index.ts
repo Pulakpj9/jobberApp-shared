@@ -80,3 +80,15 @@ export {
 } from './interfaces/seller.interface';
 
 export { uploads, videoUpload } from './cloudinary-upload';
+
+export {
+  IErrorResponse,
+  IError,
+  CustomError,
+  BadRequestError,
+  NotFoundError,
+  NotAuthorizedError,
+  FileTooLargeError,
+  ServerError,
+  ErrnoException,
+} from './error-handler';
