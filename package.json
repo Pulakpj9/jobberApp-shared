@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helpers library for Jobber App",
   "main": "index.js",
   "engines": {
@@ -56,4 +56,3 @@
     "@types/jsonwebtoken": "^9.0.6"
   }
 }
-
