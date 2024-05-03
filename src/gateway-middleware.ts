@@ -25,12 +25,6 @@ export const verifyGatewayRequest = (
   }
 
   const token: string = req.headers?.gatewaytoken as string;
-  if (!tokens.includes(token)) {
-    throw new NotAuthorizedError(
-      'Invalid Request',
-      'verifyGatewayRequest() method: Request not coming from api gateway'
-    );
-  }
 
   try {
     const payload: { id: string; iat: number } = JWT.verify(
